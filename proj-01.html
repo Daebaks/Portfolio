@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <title>Ali Alrubaye Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/agax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/agax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAKLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c407725163.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/home.png" alt="home" />
+        </a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"> </span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a
+              href="https://github.com/Daebaks/Portfolio"
+              class="nav__link"
+              target="blank_"
+              >Repository</a
+            >
+          </li>
+          <li class="nav__item">
+            <a href="" class="nav__link" target="blank_">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        React App <strong>Movies + Blogs</strong>
+      </h1>
+
+      <p class="section__subtitle section__subtitle--intro">
+        multi-theme website to create blogs and rate movies
+      </p>
+      <img src="img/proj1.jpeg" alt="project-1" class="intro__img--proj" />
+      <div class="btn-container">
+        <a href="https://mv-bg.netlify.app/" target="_blank">
+          <button class="btn">Visit Project</button></a
+        >
+        <a href="https://github.com/Daebaks/movies-blogs" target="_blank">
+          <button class="btn">Visit Repository</button></a
+        >
+      </div>
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        It is a simple user interface where users can search for favorite movies
+        and submit ratings, and users can create blogs. Blogs and movies ratings
+        are saved/fetched from a Firebase data base that is synced with the
+        project. The website is mobile friendly and has light and dark themes.
+      </p>
+      <img src="img/proj1a.jpg" alt="project1-a" />
+      <p>
+        Movie search funtionality is connected to the omdbapi.com API, and the
+        homepage has two components to display saved blogs and ratings from th
+        edatabase storage.
+      </p>
+      <img src="img/proj1b.jpg" alt="project1-b" />
+      <p>
+        Each blog/rating details can be viewed in a separate page. User also can
+        delete any of the created/saved blogs or ratings.
+      </p>
+      <img src="img/proj1c.jpg" alt="project1-c" />
+    </div>
+
+    <footer class="footer">
+      <a href="mailto:ali@minorityprogrammers.org" class="footer__link"
+        >ali@minorityprogrammers.org</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            target="blank_"
+            href="https://github.com/Daebaks"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            target="blank_"
+            href="https://www.linkedin.com/in/alialrubayedev"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>

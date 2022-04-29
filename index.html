@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <title>Ali Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/agax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/agax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAKLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c407725163.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/home.png" alt="home" />
+        </a>
+        <hr class="logo-line" />
+        <a href="https://github.com/Daebaks/Portfolio" target="blank_">
+          <img src="img/repository.png" alt="repo" />
+        </a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a
+              href="https://github.com/Daebaks/Portfolio"
+              class="nav__link"
+              target="blank_"
+              >Repository</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Intro-->
+    <section class="intro-h" id="home">
+      <h1>
+        <em>Welcome</em>
+        <em>To</em>
+        <em>My</em>
+        <em>Portfolio</em>
+        <em>-</em>
+        <em>Ali</em>
+      </h1>
+    </section>
+
+    <!--My services-->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>
+            Extensive knowledge of the modern web dev languages and technologies
+            and their application. I am experienced in HTML, JavaScript, and CSS
+            as well as Java and Android mobile development. Building new
+            websites/applications from scratch to final stages of deployment as
+            well as maintaining/upgrading existing projects.
+          </p>
+        </div>
+        <div class="service">
+          <h3>RESTful API</h3>
+          <p>
+            Analyze, design, develop, as well as implement RESTful services and
+            APIs. Implement common APIs based on architecture guidelines and
+            frameworks. I am also experienced in backend development using PHP,
+            MySQL and other technologies like FirebaseDB from Google.
+          </p>
+        </div>
+        <div class="service">
+          <h3>React.js</h3>
+          <p>
+            design and implement user interface components for JavaScript-based
+            web and mobile applications using the React open-source library. I
+            get involved in all stages of interface component design, from
+            conception through to final testing and production.
+          </p>
+        </div>
+      </div>
+      <!--/Services-->
+      <a href="#work" class="btn">See My Work</a>
+    </section>
+
+    <!--About me-->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Web Dev based in VT, US
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          I am a website developer who enjoys building and maintaining websites
+          and applications. I have two college degrees, and profesional
+          experience in software development. I am open to work and ready to
+          share my knowledge and experience to buil;d awesome user interfaces
+          that can help make people's lives easier.
+        </p>
+        <p>
+          Aside from website development, I am a musician. I play th epiano and
+          the guitar, and I compose music. I used to be in a band and I
+          participated in many concerts as the keyboard player. I also enjoy
+          volunteer for charity works as much as I can. If I have free time, I
+          mostly will play music or reading an astronomy book.
+        </p>
+      </div>
+
+      <img src="img/whoiam.jpg" alt="me" class="about-me__img" />
+    </section>
+
+    <!--My work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title">My Projects</h2>
+      <p class="section__subtitle">A selection of my personal projects</p>
+
+      <div class="portfolio">
+        <!--Portfolio item 01-->
+        <a href="proj-01.html" class="portfolio__item">
+          <img src="img/proj1.jpeg" alt="project-1" class="portfolio__img" />
+        </a>
+
+        <!--Portfolio item 02-->
+        <a
+          href="https://nft-market-mpa.netlify.app"
+          target="blank_"
+          class="portfolio__item"
+        >
+          <img src="img/proj2.jpg" alt="project-2" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <!--Professional work-->
+    <section class="my-work" id="work">
+      <h2 class="section__title">Professional Work</h2>
+      <p class="section__subtitle">A selection of my recent work</p>
+
+      <div class="portfolio">
+        <!--Portfolio item 01-->
+        <a
+          href="https://www.minorityprogrammers.com"
+          class="portfolio__item"
+          target="blank_"
+        >
+          <img src="img/pro1.jpeg" alt="project-1" class="portfolio__img" />
+        </a>
+
+        <!--Portfolio item 02-->
+        <a
+          href="https://www.genadrop.com"
+          class="portfolio__item"
+          target="blank_"
+        >
+          <img src="img/pro2.jpeg" alt="project-2" class="portfolio__img" />
+        </a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <a href="mailto:ali@minorityprogrammers.org" class="footer__link"
+        >ali@minorityprogrammers.org</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            target="blank_"
+            href="https://github.com/Daebaks"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            target="blank_"
+            href="https://www.linkedin.com/in/alialrubayedev"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>
